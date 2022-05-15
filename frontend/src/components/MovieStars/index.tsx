@@ -20,7 +20,7 @@ function getFills(score: number) {
   
     for (let i = 0; i < integerPart; i++) {
       fills[i] = 1;
-    }
+    };
   
     const diff = score - integerPart;
     if (diff > 0) {
@@ -28,7 +28,7 @@ function getFills(score: number) {
     }
   
     return fills;
-  }
+  };
 
 function Star({ fill } : StarProps){
     if (fill === 0){
@@ -56,6 +56,6 @@ function MovieStars({score } : Props) {
         </div>
 
     )
-}
+};
 
 export default MovieStars;
