@@ -18,7 +18,6 @@ function App() {
           <Route path=":movieId" element={<Form />} />
         </Route>
       </Routes>
-      <BottomBar/>
     </BrowserRouter>
   );
 }
