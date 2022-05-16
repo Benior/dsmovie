@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-primary); /* cor da borda de navegação*/
 }
 
 .dsmovie-pagination-box {
@@ -21,11 +22,11 @@
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #fff; /* cor da fonte da borda de navegação*/
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-primary); 
     cursor: pointer;
 }
 
@@ -45,7 +46,7 @@
 .dsmovie-pagination-container p {
     margin: 0;
     font-size: 12px;
-    color: var(--color-primary);
+    color: #fff;
 }
 
 .dsmovie-flip-horizontal {

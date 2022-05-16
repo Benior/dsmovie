@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+
 :root {
-  --color-primary: #4D41C0;
+  --color-primary: #4f3ee7; /* cor da primária do site*/
 }
 
 * {
@@ -10,10 +11,13 @@
 }
 
 html, body {
-    background-color: #E8E8E8;
+    /*background-color: #fff;  cor do fundo do site*/
+    background-image: linear-gradient(45deg, #E6aff7, #75d8f5);
+    background-repeat:no-repeat;
+    background-size:auto;
 }
 
  a, a:hover {
-  text-decoration: none;
-  color: unset;
+  text-decoration: none !important;
+  color: unset !important;
  }

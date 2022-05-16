@@ -1,0 +1,16 @@
+footer {
+    background-color: var(--color-primary);
+    height: 30px;
+    display: flex;
+}
+
+.dsmovie-bott-container {
+    height: px;
+    width: 60%;
+    color: #fff;
+    font-size: 12px;
+    margin: flex;
+    list-style-type: none;
+    display: inline;
+    align-items: center !important;
+};
